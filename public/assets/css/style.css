@@ -433,3 +433,75 @@ h3 { font-size: 1.75rem; }
     font-weight: 500;
     margin: 0;
 }
+
+/* ===================================
+   EXPORT BUTTONS - Reports Section
+   =================================== */
+
+.text-gold {
+    color: var(--color-gold) !important;
+}
+
+.btn-export {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.btn-export:hover {
+    transform: translateY(-5px);
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.btn-export-pdf {
+    background: linear-gradient(135deg, #dc3545 0%, #a71d2a 100%);
+    box-shadow: 0 8px 25px rgba(220, 53, 69, 0.3);
+}
+
+.btn-export-pdf:hover {
+    box-shadow: 0 12px 35px rgba(220, 53, 69, 0.5);
+    background: linear-gradient(135deg, #e04757 0%, #bd2130 100%);
+}
+
+.btn-export-excel {
+    background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+    box-shadow: 0 8px 25px rgba(40, 167, 69, 0.3);
+}
+
+.btn-export-excel:hover {
+    box-shadow: 0 12px 35px rgba(40, 167, 69, 0.5);
+    background: linear-gradient(135deg, #34ce57 0%, #228b22 100%);
+}
+
+.btn-export-print {
+    background: linear-gradient(135deg, var(--color-gray) 0%, var(--color-black) 100%);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    border: 2px solid var(--color-gold);
+}
+
+.btn-export-print:hover {
+    box-shadow: 0 12px 35px rgba(212, 175, 55, 0.4);
+    background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-dark) 100%);
+    color: var(--color-black);
+}
+
+/* Print styles */
+@media print {
+    .sidebar-admin,
+    .btn-export,
+    .admin-card:has(.btn-export) {
+        display: none !important;
+    }
+    
+    main {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}

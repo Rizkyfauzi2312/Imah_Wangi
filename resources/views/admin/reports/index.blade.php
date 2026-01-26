@@ -73,18 +73,30 @@
 
 <!-- Export Buttons -->
 <div class="admin-card mb-4">
-    <h5>Export Report</h5>
+    <h5><i class="fas fa-download me-2 text-gold"></i>Export Report</h5>
     <hr>
-    <div class="d-flex gap-2">
-        <a href="{{ route('admin.reports.exportPdf', request()->query()) }}" class="btn btn-danger">
-            <i class="fas fa-file-pdf"></i> Export PDF
-        </a>
-        <a href="{{ route('admin.reports.exportExcel', request()->query()) }}" class="btn btn-success">
-            <i class="fas fa-file-excel"></i> Export Excel
-        </a>
-        <button onclick="window.print()" class="btn btn-secondary">
-            <i class="fas fa-print"></i> Print
-        </button>
+    <div class="row g-3">
+        <div class="col-md-4">
+            <a href="{{ route('admin.reports.exportPdf', request()->query()) }}" class="btn btn-export btn-export-pdf w-100 py-3">
+                <i class="fas fa-file-pdf fa-2x mb-2"></i>
+                <div class="fw-bold">Export PDF</div>
+                <small class="opacity-75">Download formatted report</small>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="{{ route('admin.reports.exportExcel', request()->query()) }}" class="btn btn-export btn-export-excel w-100 py-3">
+                <i class="fas fa-file-excel fa-2x mb-2"></i>
+                <div class="fw-bold">Export Excel</div>
+                <small class="opacity-75">Download spreadsheet data</small>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <button onclick="window.print()" class="btn btn-export btn-export-print w-100 py-3">
+                <i class="fas fa-print fa-2x mb-2"></i>
+                <div class="fw-bold">Print Report</div>
+                <small class="opacity-75">Print current view</small>
+            </button>
+        </div>
     </div>
 </div>
 
