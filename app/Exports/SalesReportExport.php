@@ -117,7 +117,7 @@ class SalesReportExport implements FromCollection, WithHeadings, WithStyles, Wit
                 
                 // Merge and style title
                 $sheet->mergeCells('A1:G1');
-                $sheet->setCellValue('A1', 'VALORIA PARFUME');
+                $sheet->setCellValue('A1', 'Imah Wangi');
                 $sheet->getStyle('A1')->applyFromArray([
                     'font' => [
                         'bold' => true,

@@ -1,7 +1,7 @@
-# Valoria Parfume
+# Imah Wangi
 ### Luxury Custom Perfume E-Commerce Platform
 
-Valoria Parfume adalah platform e-commerce luxury yang memungkinkan pengguna untuk membeli parfum ready stock atau meracik parfum custom mereka sendiri. Dibangun dengan **Laravel 11**, platform ini menawarkan pengalaman belanja premium dengan desain yang elegan dan modern.
+Imah Wangi adalah platform e-commerce luxury yang memungkinkan pengguna untuk membeli parfum ready stock atau meracik parfum custom mereka sendiri. Dibangun dengan **Laravel 11**, platform ini menawarkan pengalaman belanja premium dengan desain yang elegan dan modern.
 
 ---
 
@@ -102,4 +102,4 @@ valoria-parfume/
 
 ---
 
- **Valoria Parfume** - *Dwi Hardiansyah*
+ **Imah Wangi** - *Dwi Hardiansyah*

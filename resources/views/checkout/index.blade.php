@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Checkout - Valoria Parfume')
+@section('title', 'Checkout - Imah Wangi')
 
 @section('content')
 <div class="container py-5">
@@ -58,7 +58,7 @@
                         
                         <div class="alert alert-info">
                             <strong>Payment Instructions:</strong><br>
-                            Please transfer to: Bank BCA 1234567890 (Valoria Parfume)<br>
+                            Please transfer to: Bank BCA 1234567890 (Imah Wangi)<br>
                             Upload the payment proof above.
                         </div>
                         

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sales Report - Valoria Parfume</title>
+    <title>Sales Report - Imah Wangi</title>
     <style>
         * {
             margin: 0;
@@ -356,7 +356,7 @@
         <!-- Footer -->
         <div class="footer">
             <div class="footer-text">This is a computer-generated document. No signature required.</div>
-            <div class="footer-brand">VALORIA PARFUME</div>
+            <div class="footer-brand">Imah Wangi</div>
             <div class="footer-contact">www.valoriaparfume.com | info@valoriaparfume.com</div>
         </div>
     </div>

@@ -57,13 +57,13 @@ class ReportController extends Controller
         $transactions = $query->with('user')->latest()->get();
 
         // Chart data - Daily sales for the period
-        $chartData = $query->select(
-            DB::raw('DATE(created_at) as date'),
-            DB::raw('SUM(total_amount) as revenue')
-        )
-        ->groupBy('date')
-        ->orderBy('date')
-        ->get();
+        $chartData = (clone $query)->reorder()->select(
+    DB::raw('DATE(created_at) as date'),
+    DB::raw('SUM(total_amount) as revenue')
+)
+->groupBy('date')
+->orderBy('date', 'desc')
+->get();
 
         return view('admin.reports.index', compact(
             'filter',

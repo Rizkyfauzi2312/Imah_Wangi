@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Order Details - Valoria Parfume')
+@section('title', 'Order Details - Imah Wangi')
 
 @section('content')
 <div class="container py-5">

@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Register - Valoria Parfume')
+@section('title', 'Register - Imah Wangi')
 
 @section('content')
 <div class="auth-container">

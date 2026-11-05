@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Custom Perfume Builder - Valoria Parfume')
+@section('title', 'Custom Perfume Builder - Imah Wangi')
 
 @section('content')
 <div class="custom-perfume-container">

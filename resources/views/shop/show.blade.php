@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', $product->name . ' - Valoria Parfume')
+@section('title', $product->name . ' - Imah Wangi')
 
 @section('content')
 <div class="container py-5">

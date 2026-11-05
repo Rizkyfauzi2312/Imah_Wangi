@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Valoria Parfume - Your Signature, Your Scent')
+@section('title', 'Imah Wangi - Your Signature, Your Scent')
 
 @section('content')
 <!-- Banner Carousel -->
@@ -54,7 +54,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center fade-in-up">
-                <h1>VALORIA PARFUME</h1>
+                <h1>Imah Wangi</h1>
                 <p class="lead">Your Signature, Your Scent</p>
                 <p class="mb-4">Discover our exclusive collection or create your own luxury fragrance</p>
                 <div class="mt-4">

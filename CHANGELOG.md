@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [1.0.0] - 2026-01-23
 
 ### Added
-- Initial release of Valoria Parfume E-Commerce
+- Initial release of Imah Wangi E-Commerce
 - Customer features:
   - Home page with hero section and featured products
   - Product catalog with ready stock parfums
