@@ -37,7 +37,7 @@ Imah Wangi adalah platform e-commerce luxury yang memungkinkan pengguna untuk me
 ## � Struktur Project
 
 ```
-valoria-parfume/
+Imah_Wangi-parfume/
 ├── app/
 │   ├── Exports/            # Excel Export Classes (NEW)
 │   ├── Http/Controllers/   # Logic Controller (Dashboard, Reports, dsb)
@@ -62,7 +62,7 @@ valoria-parfume/
 
 1. **Clone & Install**
    ```bash
-   git clone https://github.com/dwihardi11/valoria-parfume-ecommerce
+   git clone https://github.com/kelompok4/Imah_Wangi-parfume-ecommerce
    composer install
    ```
 
@@ -88,7 +88,7 @@ valoria-parfume/
 ---
 
 ##  Akun Admin
-- **Email**: `admin@valoria.com`
+- **Email**: `admin@imahwangi.com`
 - **Password**: `admin123`
 
 ---
@@ -102,4 +102,4 @@ valoria-parfume/
 
 ---
 
- **Imah Wangi** - *Dwi Hardiansyah*
+ **Imah Wangi** - *Kelompok 4*
